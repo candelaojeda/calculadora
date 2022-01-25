@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer trabajo práctico.</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <form id="limpiarCampos" name="" method="post">
+        <h1>CALCULADORA</h1><br>
+        <label>Ingrese un número:</label><br>
+        <input type="number" name="" id="valor1" placeholder="Número 1" autofocus required step="any">
+        <br><br>
+        <label>Ingrese otro número:</label><br>
+        <input type="number" name="" id="valor2" placeholder="Número 2" autofocus required step="any">
+        <br><br>
+        <label>Selecciona una operación a realizar:</label><br>
+
+        <select class="seleccionOperacion" id="operacion">
+            <option value="sumar">Suma</option>
+            <option value="restar">Resta</option>
+            <option value="multiplicar">Multiplicación</option>
+            <option value="dividir">División</option>
+            <option value="modulo">Módulo</option>
+            <option value="potencia">Potencia</option>
+            <option value="raiz">Raiz</option>
+        </select>
+    </form>
+    <br><hr><br>
+    <div>
+        <button type="button" onclick="calcular()" id="calcular">Calcular</button>
+        <button id="borrar" onclick="limpiarCampos();">Borrar</button>
+        <button id="historial" name="historial" onclick="agregarHistorial()">Historial</button> 
+        <br><br>
+        <textarea id="mostrarHistorial" name="historial" rows="10" cols="40"></textarea>
+    </div>
+
+    <script type="text/javascript" src="JS/calculadora.js"></script>
+</body>
+</html>

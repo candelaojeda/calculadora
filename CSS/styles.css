@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(fondo.png), #be48c2;
+    background: url(fondo.png), -webkit-gradient(linear, right top, left top, from(#da5bba), to(#3a0725));
+    background: url(fondo.png), linear-gradient(to left, #e241ba, #46142f);
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+#limpiarCampos{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#f7eef3;
+
+}
+
+#valor1{
+    font-size: 80%;
+    max-width: 500px;
+    background: none;
+    border-radius: 5px;
+    border-color: white;
+    border: 5px;
+    color: white;
+    text-align: center;
+    outline: 0px;
+}
+
+#valor2{
+    font-size: 80%;
+    max-width: 500px;
+    background: none;
+    border-radius: 5px;
+    border-color: white;
+    border: 5px;
+    color: white;
+    text-align: center;
+    outline: 0px;
+}
+
+.seleccionOperacion{
+    font-size: 80%;
+    background: none;
+    border: none;
+    color: #420629;
+}
+
+#calcular{
+    font-size: 100%;
+    background: #420629; 
+    border-radius: 5px;
+    border-color: #46142f;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+#borrar{
+    
+    font-size: 100%;
+    background: #420629; 
+    border-radius: 5px;
+    border-color: #46142f;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    overflow: hidden;
+
+}
+
+#historial{
+    font-size: 100%;
+    background: #420629; 
+    border-radius: 5px;
+    border-color: #46142f;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+#mostrarHistorial{
+    background-color: #ddb1d2;
+    border: solid 2px;
+    text-align: center;
+    font-size: 120%;
+}
